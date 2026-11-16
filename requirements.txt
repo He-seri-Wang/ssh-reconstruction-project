@@ -1,0 +1,9 @@
+torch>=2.0
+kornia>=0.7
+numpy<2
+scipy
+xarray
+dask
+xrft
+matplotlib
+netCDF4

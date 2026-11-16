@@ -1,0 +1,22 @@
+{
+  "tag": "L1",
+  "mu": 0.9,
+  "mu_std": 0.01,
+  "lx_deg": 1.25,
+  "lt_days": 10.94,
+  "anchors": {
+    "leaderboard_4dvarnet_v2022_4nadir": {
+      "mu": 0.94,
+      "mu_std": 0.01,
+      "lx": 0.83,
+      "lt": 8.03
+    },
+    "leaderboard_oi_4nadir": {
+      "mu": 0.83,
+      "mu_std": 0.04,
+      "lx": 2.25,
+      "lt": 15.67
+    }
+  },
+  "mu_delta_vs_v2022": -0.04
+}

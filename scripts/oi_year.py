@@ -24,8 +24,8 @@ CH = os.environ.get("SSH_CHALLENGE_DIR", "/scratch/zceehw4/ssh_challenge")
 WORK = os.environ.get("SSH_WORK_DIR", "/scratch/zceehw4/ssh_pilot")
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
                                 "third_party", "2020a_ssh_challenge"))
-from src.mod_oi import oi_grid, oi_param, oi_core          # noqa: E402
-from src.mod_inout import read_obs                          # noqa: E402
+from mod_oi import oi_grid, oi_param, oi_core          # noqa: E402
+from mod_inout import read_obs                          # noqa: E402
 
 lon_min, lon_max = -65., -55.
 lat_min, lat_max = 33., 43.

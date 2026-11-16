@@ -26,7 +26,7 @@ CH = os.environ.get("SSH_CHALLENGE_DIR", "/scratch/zceehw4/ssh_challenge")
 WORK = os.environ.get("SSH_WORK_DIR", "/scratch/zceehw4/ssh_pilot")
 sys.path.insert(0, os.path.join(REPO, "third_party", "2020a_ssh_challenge"))
 sys.path.insert(0, REPO)
-from src.mod_eval import rmse_based_scores, psd_based_scores  # noqa: E402
+from mod_eval import rmse_based_scores, psd_based_scores  # noqa: E402
 from src.regrid import oi_regrid                               # noqa: E402
 
 ANCHORS = {

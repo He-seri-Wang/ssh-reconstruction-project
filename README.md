@@ -13,6 +13,12 @@ increments.
 
 ## Results (official metric chain, test window 2012-10-22 .. 2012-12-02)
 
+![Scores vs leaderboard anchors, and L1 training curve](figs/scores_and_training.png)
+
+![Advantage day: truth vs OI vs ours, with error maps](figs/advantage_snapshot.png)
+
+*(regenerate with `python scripts/make_figs.py`; the snapshot shows 2012-11-20, the test day with the largest OI-beating margin — OI 12.6 cm RMSE vs ours 5.7 cm)*
+
 | Configuration | mu (RMSE score) | lambda_x (deg) | lambda_t (days) |
 |---|---|---|---|
 | OI first guess (baseline) | 0.83 ± 0.04 | 2.25 | 15.67 |
